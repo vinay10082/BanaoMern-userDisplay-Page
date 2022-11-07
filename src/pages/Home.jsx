@@ -44,8 +44,6 @@ const Home = () => {
             userInfo == null ?
             <h1>Loading...</h1>
             :
-
-             () => { render(
               <>
               <div className="card">
               <img src={userInfo.avatar} alt="..." />
@@ -59,7 +57,6 @@ const Home = () => {
               <p>{userInfo.profile.email}</p>
             </div>
             </>
-                        )}
             }
             </>
 
