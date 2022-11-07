@@ -41,7 +41,7 @@ const Home = () => {
             <>
             {
             userInfo == null ?
-            <h1>Loading...</h1>
+            <h1>No data to show...</h1>
             :
               <>
             <div class="container d-flex justify-content-center mt-5">
